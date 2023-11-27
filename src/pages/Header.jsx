@@ -20,7 +20,7 @@ const Layout = () => {
           
             
           
-             <Link to="/footer">MEN'S CLOTHING</Link>
+            <Link to="/footer">MEN'S CLOTHING</Link>
           
           
           

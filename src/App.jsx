@@ -15,7 +15,7 @@ function App() {
         <Route path='/' element={<Home/>}/>
       </Routes>
     </Router>
-      {/* <div className='font-bold text-[44px] text-red-500'>hiiii</div> */}
+      
     </>
   )
 }
