@@ -4,9 +4,9 @@ const Layout = () => {
     return (
       <>
         {/* <nav> */}
-        <div className="text-red-500 flex">
+        <div className="flex gap-[20px] justify-center">
          
-              <Link className="text-red-500" to="/header">HOME</Link>
+              <Link className="" to="/header">HOME</Link>
              
 
         
