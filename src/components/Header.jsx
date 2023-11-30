@@ -2,43 +2,31 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 const Layout = () => {
-    return (
-      <>
-      
-        <div className="flex gap-[20px] justify-center">
-         
-              <Link className="" to="/">HOME</Link>
-             
+  return (
+    <>
+      <div className="flex gap-[50px] justify-center bg-[#f4f4f4] px-[20px] py-[15px]">
+        <Link className="hover:text-red-600 text-[14px] " to="/">
+          HOME
+        </Link>
 
-        
-              <Link to="/jewelery">JEWELERY</Link>
-          
-        
-            
-    
-              <Link to="/electronics">ELECTRONICS</Link>
-           
-          
-            
-          
-             <Link to="/mensclothing">MEN'S CLOTHING</Link>
-          
-          
-          
-           
-          
-              <Link to="/womensclothing">WOMEN'S CLOTHING</Link>
-          
-            
-      
-        
-        </div>
-             
-        
-  
-        </>
-      
-    )
-  };
-  
-  export default Layout;
+        <Link to="/jewelery" className="hover:text-red-600 text-[14px]">
+          JEWELERY
+        </Link>
+
+        <Link to="/electronics" className="hover:text-red-600 text-[14px]">
+          ELECTRONICS
+        </Link>
+
+        <Link to="/mensclothing" className="hover:text-red-600 text-[14px]">
+          MEN'S CLOTHING
+        </Link>
+
+        <Link to="/womensclothing" className="hover:text-red-600 text-[14px]">
+          WOMEN'S CLOTHING
+        </Link>
+      </div>
+    </>
+  );
+};
+
+export default Layout;
