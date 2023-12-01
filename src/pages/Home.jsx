@@ -29,7 +29,7 @@ function Home() {
         <div>
           <div>
             <div className="text-[40px] font-thin mt-[20px] text-left">
-              Jewelery
+              Jewellery
             </div>
             <div className="text-left">
               Lorem Ipsum is simply dummy text of the printing and typesetting

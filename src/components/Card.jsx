@@ -13,7 +13,7 @@ function Card({ data }) {
           <h3 className="text-center bg-[#fefaef] overflow-hidden truncate w-200 text-[14px] pt-[5px] pb-[7px] pl-[3px]">
             {data?.title}
           </h3>
-          <p className="text-left bg-[#f6f1ea]  hover:text-slate-800 text-[#999] pt-[5px] pb-[7px] pl-[10px] text-[15px]">
+          <p className="text-left bg-[#f6f1ea]  hover:text-slate-800 text-[#999] pt-[5px] pb-[7px] pl-[10px] text-[15px]">₹
             {data?.price}
           </p>
           {/* <p>{data?.price}</p> */}

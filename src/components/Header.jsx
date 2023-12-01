@@ -10,7 +10,7 @@ const Layout = () => {
         </Link>
 
         <Link to="/jewelery" className="hover:text-red-600 text-[14px]">
-          JEWELERY
+          JEWELLERY
         </Link>
 
         <Link to="/electronics" className="hover:text-red-600 text-[14px]">

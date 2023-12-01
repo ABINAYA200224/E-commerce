@@ -15,7 +15,7 @@ function Jewelery() {
   }, []);
   return (
     <>
-      <div className="text-[44px] text-center">Jewelery</div>
+      <div className="text-[44px] text-center">Jewellery</div>
       <div className="text-[16px] justify-center text-center w-[auto] mx-[80px] ">
         Lorem Ipsum is simply dummy text of the printing and typesetting
         industry. Lorem Ipsum has been the industry's standard dummy text ever
