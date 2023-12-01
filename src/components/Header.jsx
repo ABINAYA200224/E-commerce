@@ -6,7 +6,7 @@ const Layout = () => {
     <>
       <div className="flex gap-[50px] justify-center bg-[#f4f4f4] px-[20px] py-[15px]">
         <Link className="hover:text-red-600 text-[14px] " to="/">
-         Home
+         HOME
         </Link>
 
         <Link to="/jewelery" className="hover:text-red-600 text-[14px]">
