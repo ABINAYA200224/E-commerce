@@ -1,12 +1,12 @@
-import React from "react";
-import { Link } from "react-router-dom";
+import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Layout = () => {
   return (
     <>
-      <div className="flex gap-[50px] justify-center bg-[#f4f4f4] px-[20px] py-[15px]">
+      <div className="flex gap-[50px] justify-center bg-[#f4f4f4] px-[20px] py-[15px] max-sm:w-[700px] max-sm:gap-6 md:w-[1024px] lg:w-full">
         <Link className="hover:text-red-600 text-[14px] " to="/">
-         HOME
+          HOME
         </Link>
 
         <Link to="/jewelery" className="hover:text-red-600 text-[14px]">
